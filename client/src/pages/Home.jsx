@@ -1,8 +1,14 @@
-import React from 'react'
+import HeroSection from '../components/HeroSection'
+import MoreMovies from '../components/MoreMovies'
+import TrailersSection from '../components/TrailersSection'
 
 const Home = () => {
   return (
-    <div></div>
+    <div>
+      <HeroSection/>
+      <MoreMovies/>
+      <TrailersSection/>
+    </div>
   )
 }
 
